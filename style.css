@@ -1,0 +1,101 @@
+.header-of-page{
+    background: #20815D;
+    text-align: center;
+    height: 5%;
+    width: 100vw;
+    font-size: large;
+}
+
+.page-footer{
+    background: #007046;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body{
+    background: #00AC6B;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button{
+    border: 0px;
+    padding: 20px;
+    background-color: #007633;
+}
+
+button:hover{
+    background-color: #22884F;
+}
+
+button:active{
+    background-color: #00B64F;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+.spisok-del{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+
+}
+
+.form-to-add{
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container .list{
+    flex: 1;
+    position: relative;
+    margin: 15px;
+    width: fit-content;
+    max-height: 240px;
+    border: 1px solid #007046;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: rgb(3, 122, 83);
+}
+
+.list label:last-child{
+    font-size: medium;
+    font-style: italic;
+    display: block;
+    color: gray;
+}
+
+.list button{
+    float: right;
+    background-color: transparent;
+}
+
+.list li{
+    margin: 20px;
+    font-size: xx-large;
+}
+
+.list li:hover{
+    background: #007046;
+}
+
+.list li:active{
+    text-decoration: line-through;
+}
+
+#input-delishki{
+    border: 0px;
+    padding: 20px;
+    width: 200px;
+}
