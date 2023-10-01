@@ -60,7 +60,7 @@ button:active{
 .container .list{
     flex: 1;
     position: relative;
-    margin: 15px;
+    margin: 15px auto;
     width: fit-content;
     max-height: 240px;
     border: 1px solid #007046;
@@ -98,4 +98,8 @@ button:active{
     border: 0px;
     padding: 20px;
     width: 200px;
+}
+
+.buttons-lab31{
+    margin: 15px auto;
 }
